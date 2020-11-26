@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.Master.cs" Inherits="AppEmpleadosCrud.App.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>App Empleados</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link href="css/Estilos.css" rel="stylesheet" />
+    <!--Enlaces a Estilos etc-->
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="EstiloBody">
+    <form id="form1" runat="server">
+        <div>
+            <!--Menu-->
+             <header class="EstiloHeader">
+        <nav class="MenuNav">
+            <ul class="MenuUl">
+                <li class="MenuLi"><a class="MenuLink" href="./Default.aspx"> Home </a></li>
+                <li class="MenuLi"><a class="MenuLink" href="./Datos.aspx"> Datos </a></li>
+                <li class="MenuLi"><a class="MenuLink" href="./Nosotros.aspx"> Nosotros </a></li>
+
+            </ul>
+        </nav>
+    </header>
+            <!--Menu-->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!--Footer-->
+            <footer class="EstiloFooter">
+        <h3 class="TextoFooter"> By: Hector Jefrey Muñoz Ortiz</h3>   
+            <div class="ContenedorGit">
+                <div>
+                    <a href="https://github.com/hjmunoz"><img class="Icon" src="Pic/Github.png" alt=""></a>
+                </div> 
+                <div>
+                    <small>hjmunoz</small>
+                </div>
+            </div>        
+    </footer>
+            <!--Footer-->
+        </div>
+    </form>
+</body>
+</html>

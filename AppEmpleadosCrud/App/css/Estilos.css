@@ -1,0 +1,208 @@
+﻿.EstiloBody {
+    width: 100%;
+    background-color: #EBF5FB;
+    font-family: 'Roboto', sans-serif;
+}
+
+.EstiloHeader {
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.EstiloMain {
+    width: 90%;
+    background-color: rgb(144, 194, 223);
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.EstiloFooter {
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Estilos de Menu*/
+.MenuNav {
+    background-color: white;
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.MenuUl {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.MenuLi {
+    list-style: none;
+}
+
+.MenuLink {
+    background-color: #1B4F72;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+    .MenuLink:hover {
+        background-color: #E67E22;
+    }
+
+.TextoH1 {
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.Pic {
+    height: 200px;
+}
+
+.ContenedorImg {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-top: 20px;
+}
+
+.ContenedorTexto {
+    width: 70%;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-top: 20px;
+}
+
+.Icon {
+    height: 30px;
+    margin-right: 30px;
+}
+
+.TextoFooter {
+    font-size: small;
+}
+
+.ContenedorGit {
+    display: flex;
+}
+
+.ContenedorDatos {
+    width: 90%;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: 300;
+}
+
+/*Estilo de las cards*/
+.PicProgramador {
+    height: 120px;
+    border-radius: 120px;
+}
+
+.TextoResaltado {
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.TextoNormal {
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    font-weight: 300;
+}
+
+.cards {
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.ContenedorCards {
+    background-color: rgb(144, 194, 223);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.MenuApp {
+    width: 100%;
+    background-color: white;
+    margin: 15px;
+}
+
+.ContenedorApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.btnApp {
+    background-color: rgb(81, 167, 216);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+    .btnApp:hover {
+        background-color: #1B4F72;
+    }
+
+.ContenedorBtnApp {
+    display: flex;
+}
+
+.FormatoGV 
+{
+    width: 100%;
+}
+
+.contenedor.Grid {
+    width: 100%;
+}
+
+
