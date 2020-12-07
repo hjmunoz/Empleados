@@ -24,7 +24,7 @@ namespace AppEmpleadosCrud
             }
             
 
-            ObjetoConexion = new MySqlConnection("Server=localhost;Database=sena2020;Uid=UserSena;Pwd=Clave19890.;");
+            ObjetoConexion = new MySqlConnection("Server=localhost;Database=bdsena;Uid=UserSena;Pwd=Clave19890.;");
 
             try
             {

@@ -194,6 +194,7 @@
 
 .ContenedorBtnApp {
     display: flex;
+    align-items:center;
 }
 
 .FormatoGV 
@@ -201,8 +202,45 @@
     width: 100%;
 }
 
-.contenedor.Grid {
+.contenedorGrid {
     width: 100%;
 }
 
 
+/*Estilos De Contenedor*/
+
+.contenedordatoform
+{
+    width:50%;
+    display:flex;
+    margin:5px; 
+
+}
+
+.contenedortodoformulario 
+{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.contenedorlabel 
+{
+    width:30%;
+    text-align:right;
+}
+
+.contenedortext
+{
+    width:40%;
+    margin-left:10px;
+}
+
+.contenedorerror
+{
+    width:30%;
+    text-align:left;
+    margin-left:10px;
+}

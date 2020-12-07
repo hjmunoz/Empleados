@@ -75,6 +75,7 @@
     <Content Include="App\pic\Github.png" />
     <Content Include="App\pic\Programador-1.png" />
     <Content Include="App\pic\Tux.png" />
+    <Content Include="App\Formulario.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -108,8 +109,16 @@
     </Compile>
     <Compile Include="ConexionMysql.cs" />
     <Compile Include="Empleado.cs" />
+    <Compile Include="App\Formulario.aspx.cs">
+      <DependentUpon>Formulario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Formulario.aspx.designer.cs">
+      <DependentUpon>Formulario.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GestionDatos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValidacionCajas.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\Layout.Master" />

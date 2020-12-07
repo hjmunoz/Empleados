@@ -22,6 +22,7 @@
             <ul class="MenuUl">
                 <li class="MenuLi"><a class="MenuLink" href="./Default.aspx"> Home </a></li>
                 <li class="MenuLi"><a class="MenuLink" href="./Datos.aspx"> Datos </a></li>
+                <li class="MenuLi"><a class="MenuLink" href="./Formulario.aspx"> Formulario </a></li>
                 <li class="MenuLi"><a class="MenuLink" href="./Nosotros.aspx"> Nosotros </a></li>
 
             </ul>
